@@ -8,6 +8,7 @@ class LibrosController < ApplicationController
     @libros = @q.result(distinct: true)
   end
 
+
   # GET /libros/1
   # GET /libros/1.json
   def show
